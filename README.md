@@ -21,7 +21,6 @@ The SwissPassMobile SDK is written in Swift 5 and compiled using the option *Bui
 In addition:
 
 * Make sure to integrate the *Swift Standard Libraries* in your build. I.e., the option *Embedded Content Contains Swift Code* (EMBEDDED_CONTENT_CONTAINS_SWIFT) must be set to YES.
-* In order to use FaceID in `requestAuthentication()` be sure to specify the key `NSFaceIDUsageDescription` in your info.plist - for more details see https://developer.apple.com/documentation/localauthentication/lacontext
 
 ### Swift Package Manager
 
@@ -38,7 +37,6 @@ This project is licensed under [LICENSE.md](./LICENSE.md).
 ## Additional information
 
 Further documentation is available on the NOVA UserGroup website.
-
 ### Contact
 
 General inquiries, suggestions, bug reports and feedback can be made via the NOVA UserGroup website or the SwissPass Alliance.
